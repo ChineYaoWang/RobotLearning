@@ -217,7 +217,7 @@ def get_args():
     parser.add_argument("--time_limit", type=float, default=5)
     parser.add_argument("--gui", action="store_const", const=True, default=False)
     parser.add_argument("--model_path", type=str)
-    parser.add_argument("--xgoal", type=float, default= 1.19286783)
+    parser.add_argument("--xgoal", type=float, default=-1.19286783)
     parser.add_argument("--ygoal", type=float, default=-1.28045552)
     return parser.parse_args()
 
